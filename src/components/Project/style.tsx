@@ -11,7 +11,7 @@ export const ProjectStack = styled(Flex, {
 });
 
 export const ProjectStackTech = styled("span", {
-  backgroundColor: "$grey1",
+  backgroundColor: "$grey0",
   color: "$grey2",
   padding: "0  0.5rem",
   borderRadius: "$2",
@@ -43,6 +43,9 @@ export const ProjectTitle = styled(Text, {});
 
 export const Project = styled("article", {
   marginTop: "4rem",
+  backgroundColor: "$grey1",
+  padding: "20px",
+  borderRadius: "15px",
   [`&:first-child`]: {
     [`& ${ProjectTitle}:first-child`]: {
       position: "relative",

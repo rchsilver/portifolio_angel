@@ -14,6 +14,7 @@ export const StackCard = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   position: "relative",
+  padding: "5px",
 
   [`& ${Text}`]: {
     opacity: 0,
@@ -51,5 +52,7 @@ export const StackCard = styled("div", {
       transform: "translateY(-140%)",
       animation: `${scaleUp} 200ms`,
     },
+      backgroundColor: '$grey0',
+      padding: "5px",
   },
 });
