@@ -21,14 +21,17 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you! {/* <HandEffect /> */}
+              Muito Obrigado! {/* <HandEffect /> */}
             </Text>
             <Text type="body1" color="grey2">
-              Follow me on my social networks and let's talk
+              Meus sinceros agradecimentos à comunidade de desenvolvedpres
+            </Text>
+            <Text type="body1" color="grey2">
+              da Kenzie Academy pela inspiração contínua.
             </Text>
           </Box>
         </Flex>
-        <Flex
+        {/* <Flex
           css={{
             flexWrap: "wrap",
             justifyContent: "center",
@@ -62,7 +65,7 @@ export const Footer = (): JSX.Element => {
           >
             <FaLinkedinIn />
           </Button>
-        </Flex>
+        </Flex> */}
       </Container>
     </FooterWrapper>
   );

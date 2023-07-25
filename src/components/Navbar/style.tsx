@@ -20,6 +20,12 @@ export const Navbar = styled("nav", {
       flexDirection: "column",
     },
   },
+  ["& a"]:{
+    "&:hover":{
+        color: "$brand1",
+        cursor: "pointer"
+    }
+  },
 });
 
 export const LogoTipo = styled(Flex, {

@@ -26,6 +26,7 @@ import {
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
 } from "./style";
+import { AboutMe } from "@/components/AboutMe";
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
@@ -47,13 +48,13 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Olá, meu nome é {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            Eu{" "}
+              Eu{" "}
               <Text as="span" type="heading1" color="brand1">
               amo
               </Text>{" "}
-              criar<embed src="" type="" />{" "}
+              criar<embed src="" type="" />
               <Text as="span" type="heading1" color="brand1">
-                desenvolver
+              desenvolver
               </Text>{" "}
               projetos
             </Text>
@@ -79,6 +80,7 @@ export const Home = (): JSX.Element => {
                 <FaGithub />
               </Button>
             </HeaderButtonsArea>
+            <AboutMe />
             <StackCards>
               {stackData.map((stack, index) => (
                 <Stack key={index} title={stack.title} icon={stack.img} />

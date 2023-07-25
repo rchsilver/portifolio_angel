@@ -29,6 +29,9 @@ export const ProjectLink = styled("a", {
   display: "flex",
   alignItems: "center",
   lineHeight: "0",
+  backgroundColor: '$grey0',
+  padding: "1rem",
+  borderRadius: "999px",
 
   "&:hover": {
     color: "$grey5",
